@@ -1,0 +1,7 @@
+@mixin global--default {
+    body, html {
+       
+    }
+}
+
+@include global--default;
