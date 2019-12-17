@@ -1,6 +1,23 @@
 @mixin global--default {
     body, html {
-       
+       background: #297496;
+       color: #fff;
+    }
+
+    .main-header {
+        background: #133645;
+    }
+
+    main.container {
+        margin-top: 2rem;
+
+        .sidebar {
+            .list-group {
+                &-item {
+                    color: #444;
+                }
+            }
+        }
     }
 }
 

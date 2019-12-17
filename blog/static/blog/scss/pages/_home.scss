@@ -1,5 +1,33 @@
 @mixin home--default {
-   
+  .article {
+    &__wrapper {
+      background: #ffffff;
+      padding: rem(10) rem(20);
+      border-radius: rem(4);
+      margin-bottom: rem(20);
+
+      a {
+        color: #444;
+  
+        &:hover {
+          color: #428bca;
+          text-decoration: none;
+        }
+      }
+    }
+    &__meta {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: rem(10);
+        margin-bottom: rem(5);
+    }
+
+    &__title {
+      color: #444;
+    }
+    &__content {
+      color: #444;
+    }
+  }
 }
 
 @include home--default;
