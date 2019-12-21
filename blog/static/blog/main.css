@@ -21,6 +21,16 @@ body, html {
   background: #297496;
   color: #fff; }
 
+.wrapper {
+  background: #ffffff;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.25rem;
+  margin-bottom: 1.25rem; }
+
+form,
+small {
+  color: #444; }
+
 .main-header {
   background: #133645; }
 

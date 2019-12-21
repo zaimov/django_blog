@@ -11,3 +11,10 @@ $em-base: 16;
   }
   @return ($pxval / $base) * 1rem;
 }
+
+@mixin wrapper() {
+  background: #ffffff;
+  padding: rem(10) rem(20);
+  border-radius: rem(4);
+  margin-bottom: rem(20);
+}

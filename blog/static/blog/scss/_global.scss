@@ -4,6 +4,15 @@
        color: #fff;
     }
 
+    .wrapper {
+        @include wrapper();
+    }
+
+    form,
+    small {
+        color: #444;
+    }
+
     .main-header {
         background: #133645;
     }
