@@ -12,6 +12,10 @@
         }
       }
     }
+    &__image {
+      height: rem(80);
+      width: rem(80);
+    }
     &__meta {
         border-bottom: 1px solid #ccc;
         padding-bottom: rem(10);

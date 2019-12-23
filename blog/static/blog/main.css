@@ -8,6 +8,9 @@
     .article__wrapper a:hover {
       color: #428bca;
       text-decoration: none; }
+.article__image {
+  height: 5rem;
+  width: 5rem; }
 .article__meta {
   border-bottom: 1px solid #ccc;
   padding-bottom: 0.625rem;
