@@ -6,11 +6,16 @@
 
     .wrapper {
         @include wrapper();
+        color: #444;
     }
 
-    form,
-    small {
-        color: #444;
+    .login-again {
+        color: #fff;
+        text-decoration: underline;
+
+        &:hover {
+            color: #ccc;
+        }
     }
 
     .main-header {

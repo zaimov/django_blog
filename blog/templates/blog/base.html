@@ -35,14 +35,21 @@
 							</li>
 						</ul>
 						<ul class="navbar-nav mr-right">
+							{% if user.is_authenticated %}
 							<li class="nav-item">
-								<a class="nav-link" href="{% url 'register' %}">Register
-									<span class="sr-only">(current)</span>
-								</a>
+								<a class="nav-link" href="{% url 'profile' %}">Profile</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="{% url 'blog-about' %}">Login</a>
+								<a class="nav-link" href="{% url 'logout' %}">Logout</a>
 							</li>
+							{% else %}
+								<li class="nav-item">
+									<a class="nav-link" href="{% url 'login' %}">Login</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="{% url 'register' %}">Register</a>
+								</li>
+							{% endif %}
 						</ul>
 					</div>
 				</div>

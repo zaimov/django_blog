@@ -25,11 +25,14 @@ body, html {
   background: #ffffff;
   padding: 0.625rem 1.25rem;
   border-radius: 0.25rem;
-  margin-bottom: 1.25rem; }
-
-form,
-small {
+  margin-bottom: 1.25rem;
   color: #444; }
+
+.login-again {
+  color: #fff;
+  text-decoration: underline; }
+  .login-again:hover {
+    color: #ccc; }
 
 .main-header {
   background: #133645; }
