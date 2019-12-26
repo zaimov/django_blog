@@ -9,6 +9,44 @@
         color: #444;
     }
 
+    .article {
+        &__wrapper {
+          @include wrapper();
+        }
+        &__author {
+            color: #444;
+      
+            &:hover {
+              color: #428bca;
+              text-decoration: none;
+            }
+        }
+        &__image {
+          height: rem(80);
+          width: rem(80);
+        }
+        &__meta {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: rem(10);
+            margin-bottom: rem(5);
+        }
+    
+        &__title {
+          color: #444;
+
+          &-link {
+            color: #444;
+            &:hover {
+                color: #428bca;
+                text-decoration: none;
+              }
+          }
+        }
+        &__content {
+          color: #444;
+        }
+      }
+
     .login-again {
         color: #fff;
         text-decoration: underline;
