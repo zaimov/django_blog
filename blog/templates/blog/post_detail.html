@@ -7,7 +7,7 @@
             </div>
             <div class="col-md-10">
                 <div class="article__meta">
-                    <a class="article__author mr-2" href="#">{{ object.author }}</a>
+                    <a class="article__author mr-2" href="{% url 'user-posts' object.author.username %}">{{ object.author }}</a>
                     <small class="text-muted">{{ object.date_posted|date:"F d, Y" }}</small>
                     {% if object.author == user %}
                         <div>
